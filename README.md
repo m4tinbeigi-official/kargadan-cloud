@@ -1,5 +1,13 @@
 # سکوی ابری کرگدن // Kargadan Cloud Python SDK & CLI
 
+<div align="center">
+
+[![CI](https://github.com/m4tinbeigi-official/kargadan-cloud/actions/workflows/ci.yml/badge.svg)](https://github.com/m4tinbeigi-official/kargadan-cloud/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python: 3.9+](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/)
+
+</div>
+
 کتابخانه پایتون، رابط برنامه‌نویسی (API) و ابزار خط فرمان اختصاصی جهت مدیریت جامع و خودکار سرورهای ابری ساعتی، سرورهای مجازی، وضعیت پاور، ماشین‌ها، امور مالی و تیکت‌ها در پلتفرم **کرگدن (kargadan.ir)**.
 
 این پکیج به صورت صفر تا صد با تحلیل و مهندسی معکوس ساختار Next.js App Router و اکشن‌های سمت سرور (Next.js Server Actions) توسعه یافته است و بدون نیاز به نصب هیچ‌گونه پیش‌نیاز خارجی، صرفاً با کتابخانه استاندارد پایتون (Python Standard Library) کار می‌کند.
