@@ -5,8 +5,11 @@ Manage Kargadan VPS, check balances, perform power actions, and inspect machines
 """
 
 import sys
+import os
 import json
 import argparse
+
+sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
 from client import KargadanClient
 
 def main():
