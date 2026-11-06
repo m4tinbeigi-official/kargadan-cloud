@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kargadan-cloud"
+version = "1.0.0"
+description = "Unofficial Python SDK and CLI for Kargadan Cloud VPS Infrastructure (kargadan.ir)"
+readme = "README.md"
+authors = [
+  { name = "Rick Sanchez", email = "101627789+m4tinbeigi-official@users.noreply.github.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+kargadan = "cli:main"
+
+[project.urls]
+"Homepage" = "https://github.com/m4tinbeigi-official/kargadan-cloud"
+"Bug Tracker" = "https://github.com/m4tinbeigi-official/kargadan-cloud/issues"
