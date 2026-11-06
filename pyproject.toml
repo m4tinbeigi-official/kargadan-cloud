@@ -22,6 +22,9 @@ dependencies = []
 [project.scripts]
 kargadan = "cli:main"
 
+[tool.setuptools]
+py-modules = ["client", "cli"]
+
 [project.urls]
 "Homepage" = "https://github.com/m4tinbeigi-official/kargadan-cloud"
 "Bug Tracker" = "https://github.com/m4tinbeigi-official/kargadan-cloud/issues"
